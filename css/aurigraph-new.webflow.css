@@ -4854,6 +4854,12 @@ figcaption {
   text-align: center;
 }
 
+.f6s-container {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
 html.w-mod-js *[data-ix="hide-block-title"] {
   opacity: 0;
   -webkit-transform: translate(0px, -10px);
