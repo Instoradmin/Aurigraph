@@ -4,7 +4,7 @@
   padding-left: 20px;
 }
 
-.w-checkbox:before {
+.w-checkbox::before {
   content: ' ';
   display: table;
   -ms-grid-column-span: 1;
@@ -17,7 +17,7 @@
   grid-row-start: 1;
 }
 
-.w-checkbox:after {
+.w-checkbox::after {
   content: ' ';
   display: table;
   -ms-grid-column-span: 1;
@@ -4858,6 +4858,14 @@ figcaption {
   padding-top: 15px;
   padding-bottom: 10px;
   text-align: center;
+}
+
+.award-text-link {
+  text-decoration: none;
+}
+
+.award-text-link:hover {
+  color: #1f6fff;
 }
 
 html.w-mod-js *[data-ix="hide-block-title"] {
