@@ -5,11 +5,12 @@
  *    without disabling user zoom.
  */
 html {
-  font-family: sans-serif;
+  font-family: sans-serif !important;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
+  text-align: justify;
   /* 2 */
 }
 /**
@@ -352,4 +353,8 @@ table {
 td,
 th {
   padding: 0;
+}
+
+solution{
+  font-family: sans-serif !important;
 }

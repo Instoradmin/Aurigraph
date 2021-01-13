@@ -592,8 +592,8 @@ figcaption {
 
 .section {
   position: relative;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #fafafa;
 }
 
