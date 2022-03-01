@@ -522,9 +522,14 @@ textarea.w-select {
   clear: both;
 }
 .w-container .w-row {
-  margin-left: -10px;
+  margin-left: 10px;
   margin-right: -10px;
 }
+.w-container1 .w-row {
+  margin-left: 350px;
+  margin-right: -10px;
+}
+
 .w-row:before,
 .w-row:after {
   content: " ";
